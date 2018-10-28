@@ -6,11 +6,11 @@
  */
 const distanceBetweenDots = ( firstDot, secondDot ) => {
     let xs = secondDot.x - firstDot.x
-    xs = xs * xs
+    xs *= xs
 
     let ys = secondDot.y - firstDot.y
-    ys = ys * ys
-
+    ys *= ys
+    
     return Math.sqrt( xs + ys )
 }
 

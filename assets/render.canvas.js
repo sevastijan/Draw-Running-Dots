@@ -4,7 +4,6 @@ import renderCanvas from './utility/canvas.class.js'
 const render = ( canvas ) => {
 
     const partiples = new renderCanvas(canvas)
-    console.log(partiples.getCanvasArea(canvas));
     
     if (partiples.getCanvasArea(canvas)) {
 
